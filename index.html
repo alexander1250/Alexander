@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A.R Limpezas e Reformas — serviços de limpeza e reformas em geral em São João de Meriti e em todas as localidades do Rio de Janeiro.">
+<title>A.R Limpezas e Reformas</title>
+<style>
+:root{--dark:#17202a;--gold:#f2b84b;--light:#f7f8fa;--text:#263238;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--light);line-height:1.6}
+header{background:rgba(23,32,42,.96);color:#fff;position:sticky;top:0;z-index:10}
+.nav{max-width:1100px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.25rem;font-weight:800}.logo span{color:var(--gold)}
+nav a{color:#fff;text-decoration:none;margin-left:20px;font-size:.95rem}
+.hero{background:linear-gradient(135deg,#17202a 0%,#273746 55%,#3b4b59 100%);color:#fff;padding:90px 22px}
+.hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center}
+.badge{display:inline-block;background:rgba(242,184,75,.16);border:1px solid rgba(242,184,75,.5);color:#ffd77c;padding:7px 13px;border-radius:30px;margin-bottom:18px}
+h1{font-size:clamp(2.2rem,6vw,4.5rem);line-height:1.05;margin-bottom:20px}
+.hero p{font-size:1.12rem;max-width:650px;color:#e8edf1}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:13px 20px;border-radius:9px;text-decoration:none;font-weight:700}
+.primary{background:var(--gold);color:#17202a}.secondary{border:1px solid #fff;color:#fff}
+.hero-card{background:#fff;color:var(--text);padding:28px;border-radius:18px;box-shadow:0 15px 40px rgba(0,0,0,.2)}
+.hero-card strong{font-size:1.7rem;display:block;margin-bottom:8px}
+section{padding:72px 22px}.container{max-width:1100px;margin:auto}
+.section-title{text-align:center;margin-bottom:38px}.section-title h2{font-size:2.2rem;color:var(--dark)}.section-title p{color:#667}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;padding:25px;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.07);border-top:4px solid var(--gold)}
+.card h3{margin-bottom:10px;color:var(--dark)}.card ul{padding-left:18px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.contact{background:var(--dark);color:#fff}.contact h2{color:#fff}.contact-box{background:#fff;color:var(--text);padding:30px;border-radius:15px}
+.contact a{color:#b77900;font-weight:700;text-decoration:none}
+footer{background:#10161c;color:#cfd6dc;text-align:center;padding:25px 20px}
+@media(max-width:800px){nav{display:none}.hero-inner,.split{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.hero{padding:65px 20px}section{padding:55px 20px}}
+
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.gallery-item{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 5px 20px rgba(0,0,0,.08)}
+.gallery-item img{width:100%;height:230px;object-fit:cover;display:block}
+.gallery-item figcaption{padding:12px 14px;font-weight:700;color:#263238}
+@media(max-width:800px){.gallery{grid-template-columns:1fr 1fr}.gallery-item img{height:190px}}
+@media(max-width:480px){.gallery{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<div class="logo">A.R <span>Limpezas e Reformas</span></div>
+<nav>
+<a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#trabalhos">Trabalhos</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+<div class="hero-inner">
+<div>
+<div class="badge">Limpeza • Reformas • Qualidade</div>
+<h1>Seu espaço bem cuidado, renovado e transformado.</h1>
+<p>A.R Limpezas e Reformas oferece serviços de limpeza e reformas em geral, com compromisso, capricho e atendimento em todas as localidades do Rio de Janeiro.</p>
+<div class="buttons">
+<a class="btn primary" href="https://wa.me/5521989834101?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank">Pedir orçamento</a>
+<a class="btn secondary" href="#servicos">Conhecer serviços</a>
+</div>
+</div>
+<div class="hero-card">
+<strong>Atendimento</strong>
+<p>São João de Meriti e todas as localidades do Rio de Janeiro.</p>
+<hr style="margin:18px 0;border:0;border-top:1px solid #ddd">
+<strong>Responsável</strong>
+<p>Alexander</p>
+</div>
+</div>
+</section>
+
+<section id="servicos">
+<div class="container">
+<div class="section-title"><h2>Nossos serviços</h2><p>Um só lugar para cuidar, limpar e renovar seu ambiente.</p></div>
+<div class="cards">
+<div class="card"><h3>🧹 Limpezas</h3><ul><li>Limpeza residencial</li><li>Limpeza comercial</li><li>Limpeza pesada</li><li>Limpeza pós-obra</li><li>Higienização e organização</li></ul></div>
+<div class="card"><h3>🔨 Reformas</h3><ul><li>Pintura</li><li>Alvenaria</li><li>Pequenos reparos</li><li>Reformas em geral</li><li>Manutenção de ambientes</li></ul></div>
+<div class="card"><h3>🏗️ Acabamentos</h3><ul><li>Drywall</li><li>Reparos e ajustes</li><li>Preparação de ambientes</li><li>Acabamentos diversos</li><li>Serviços sob orçamento</li></ul></div>
+</div>
+</div>
+</section>
+
+
+<section id="trabalhos" style="background:#f7f8fa">
+<div class="container">
+<div class="section-title"><h2>Nossos trabalhos</h2><p>Alguns registros dos serviços realizados pela A.R Limpezas e Reformas.</p></div>
+<div class="gallery">
+<figure class="gallery-item"><img src="images/trabalho-01.jpg" alt="Serviço realizado pela A.R Limpezas e Reformas"><figcaption>Serviço de limpeza e acabamento</figcaption></figure>
+<figure class="gallery-item"><img src="images/trabalho-02.jpg" alt="Ambiente reformado"><figcaption>Ambiente após reforma</figcaption></figure>
+<figure class="gallery-item"><img src="images/trabalho-03.jpg" alt="Equipe realizando serviço de limpeza"><figcaption>Equipe em serviço</figcaption></figure>
+<figure class="gallery-item"><img src="images/trabalho-04.jpg" alt="Espaço comercial em serviço"><figcaption>Serviço em espaço comercial</figcaption></figure>
+<figure class="gallery-item"><img src="images/video-trabalho.jpg" alt="Registro em vídeo de um trabalho realizado"><figcaption>Registro de trabalho</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section id="sobre" style="background:#fff">
+<div class="container">
+<div class="section-title"><h2>Por que escolher a A.R?</h2><p>Trabalho pensado para facilitar a vida do cliente.</p></div>
+<div class="split">
+<div class="card"><h3>Compromisso</h3><p>Atendimento profissional e atenção aos detalhes em cada serviço.</p></div>
+<div class="card"><h3>Atendimento amplo</h3><p>Atendemos São João de Meriti e todas as localidades do Rio de Janeiro.</p></div>
+<div class="card"><h3>Orçamento</h3><p>Entre em contato para explicar o que precisa e solicitar seu orçamento.</p></div>
+<div class="card"><h3>Limpeza + reforma</h3><p>Você pode contratar soluções de limpeza, manutenção e reforma em um só lugar.</p></div>
+</div>
+</div>
+</section>
+
+<section class="contact" id="contato">
+<div class="container">
+<div class="section-title"><h2>Fale conosco</h2><p>Solicite seu orçamento pelos nossos canais de atendimento.</p></div>
+<div class="contact-box">
+<p><strong>Alexander</strong></p>
+<p>WhatsApp: <a href="https://wa.me/5521989834101" target="_blank">(21) 98983-4101</a></p>
+<p>WhatsApp: <a href="https://wa.me/5521975864006" target="_blank">(21) 97586-4006</a></p>
+<p>E-mail: <a href="mailto:Alexliveira232@gmail.com">Alexliveira232@gmail.com</a></p>
+<p>Atendimento: São João de Meriti e todas as localidades do Rio de Janeiro.</p>
+<div class="buttons"><a class="btn primary" href="https://wa.me/5521989834101?text=Olá!%20Vim%20pelo%20site%20da%20A.R%20Limpezas%20e%20Reformas%20e%20gostaria%20de%20um%20orçamento." target="_blank">Chamar no WhatsApp</a></div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>© 2026 A.R Limpezas e Reformas — Todos os direitos reservados.</footer>
+</body>
+</html>
